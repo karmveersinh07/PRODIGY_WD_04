@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- bootstrap CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+        <!-- linking css file -->
+        <link rel="stylesheet" href="Task-4.css">
+        <link rel="shortcut icon" href="profile_icon.png" type="image/x-icon" />
+        <script src="Task-4.js" defer></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Rana Karmveersinh</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>     
+                    </div>
+                </div>
+        </nav>
+       
+        <!--Home page-->
+        <section class="bgimage" id="home">
+            <div class="container-fluid">
+                <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h2 class="hero_title">Hi, it's me Rana Karmveersinh</h2>
+                    <p class="hero_desc">I am a Web Developer Student in Rajkot City.</p>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about me section-->
+        <section id="about">
+            <div class="container mt-4 pt-4">
+                <h1 class="text-center">About Me</h1>
+                <div class="row mt-4">
+                    <div class="col-lg-3">
+                        <img src="my_photo.jpg" class= "imageAboutPage" alt="">
+                    </div>
+
+                    <div class="col-lg-8">
+                        <p> My name is Rana Karmveersinh.I am from Rajkot,Gujarat.I am Pursuing Computer Engineering Course at Marwadi university.Now I am in last Year,I completed 3 years of Engineering.
+                        </p>
+                        <div class="row mt-3">
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>Name: Rana Karmveersinh</li>
+                                    <li>Age: 20</li>
+                                    <li>Intern: Web Developer at Prodigy Infotech.</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <p> 
+                                Academic Qualification:<br>
+                                Computer Engineering :8.92 CGPA(3 year)<br> From: Marwadi university-Rajkot AY:2021-25<br>
+                                12th Board: 80 PR with A2 Grade & with 83 percentage<br>
+                                From: Modi School-Rajkot AY: 2020-21
+                                <br>
+                                10th Board: 97 PR with A2 Grade & with 84 percentage <br>
+                                From: Dholakiya School-Rajkot AY:2018-19 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Projects section-->
+    <section id="projects">
+        <div class="container">
+            <h1 class="text-center">Projects</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-film"></i>
+                            <h4 class="card-title mt-3">Movie Tickets Booking website</h4>
+                            <p class="card-text mt-3">Movie Ticket booking Website is MERN (MongoDb,Express js ,Rect js & Node js) app.It is used to book movie ticktes online with both payment method.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-question-circle'></i>
+                            <h4 class="card-title mt-3">Quiz App</h4>
+                            <p class="card-text mt-3">Quiz App is basic Html,Css,Javascript project.Users will be given one question for which they will have four options to choose from. Based on the user choice, the score will be incremented. The next question appears When user click on button.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-home'></i>
+                            <h4 class="card-title mt-3">Farmhouse Booking Management</h4>
+                            <p class="card-text mt-3">Farmhouse booking website will guide you to book farmhouses in our city for dinner or for 2-3 days like mini vacation.Feel the nature.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fa servicesIcon fa-cutlery'></i>
+                            <h4 class="card-title mt-3">RK Restaurant</h4>
+                            <p class="card-text mt-3">RK Restaurant website used to order food online with online payment.I just created this website for my knowledge on Designing and basic javascript that is used to store city names and food names and in payment.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fa servicesIcon fa-user-circle-o'></i>
+                            <h4 class="card-title mt-3">My Profile</h4>
+                            <p class="card-text mt-3">My Profile website is about me.All my projects,internship,my academic and all my personal details.This project is my own personal project that only for checking my web development knowledge.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <div style="overflow:hidden;resize:none;color:red;max-width:100%;width:500px;height:500px;">
+                        <div id="embed-ded-map-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Rajkot&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="embed-map-html" href="https://www.bootstrapskins.com/themes" id="grab-map-info">premium bootstrap themes</a>
+                        <style>#embed-ded-map-canvas img{max-height:none;max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Me</button>       
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <span>
+                    &copy; Created By Rana Karmveersinh
+                </span>
+                <a href="https://github.com/karmveersinh07" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rana-karmveersinh-8a415026a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    </body>
+</html>
